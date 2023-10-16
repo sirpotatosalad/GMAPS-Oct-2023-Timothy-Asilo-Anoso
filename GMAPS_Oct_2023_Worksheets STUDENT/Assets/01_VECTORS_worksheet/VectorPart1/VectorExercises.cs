@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class VectorExercises : MonoBehaviour
@@ -41,12 +42,26 @@ public class VectorExercises : MonoBehaviour
 
     void Question2a()
     {
+        startPt = new Vector2(0, 0);
+        endPt = new Vector2(2, 3);
 
+        drawnLine = lineFactory.GetLine(startPt, endPt, 0.02f, Color.black);
+        drawnLine.EnableDrawing(true);
+
+        Vector2 vec2 = endPt - startPt;
+        Debug.Log("Magnitude = " + vec2.magnitude);
     }
 
     void Question2b(int n)
     {
+        for(int i = n; i > 0; i--)
+        {
+            startPt = new Vector2(Random.Range(-5,5),Random.Range(-5,5));
+            endPt = new Vector2(Random.Range(-5, 5), Random.Range(-5, 5));
 
+            drawnLine = lineFactory.GetLine(startPt, endPt, 0.02f, Color.black);
+            drawnLine.EnableDrawing(true);   
+        }
     }
 
     void Question2d()
