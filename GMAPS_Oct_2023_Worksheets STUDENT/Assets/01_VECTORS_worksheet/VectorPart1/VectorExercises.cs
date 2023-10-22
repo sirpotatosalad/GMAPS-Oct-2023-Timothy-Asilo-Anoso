@@ -99,32 +99,67 @@ public class VectorExercises : MonoBehaviour
     public void Question3a()
     {
         HVector2D a = new HVector2D(3, 5);
-        //HVector2D b = // Your code here;
-        //HVector2D c = // Your code here;
+        HVector2D b = new HVector2D(-4, 2);
+
+        //code to show sum of a and b
+        //HVector2D c = a + b;
+
+        //code to show a - b
+        HVector2D c = a - b;
+
 
         DebugExtension.DebugArrow(Vector3.zero, a.ToUnityVector3(), Color.red, 60f);
-        // Your code here
-        // ...
+        DebugExtension.DebugArrow(Vector3.zero, b.ToUnityVector3(), Color.green, 60f);
+        DebugExtension.DebugArrow(Vector3.zero, c.ToUnityVector3(), Color.white, 60f);
+        
+        //getting head of b
+        //Vector3 bHead = b.ToUnityVector3();
+        //drawing c again from the head of b
+        //DebugExtension.DebugArrow(bHead, c.ToUnityVector3(), Color.white, 60f);
 
-        // Your code here
 
-        //Debug.Log("Magnitude of a = " + // Your code here.ToString("F2"));
-        // Your code here
-        // ...
+        //getting head of a
+        Vector3 aHead = a.ToUnityVector3();
+        //-b HVector obj
+        HVector2D minusB = new HVector2D(-b.x,-b.y);
+        DebugExtension.DebugArrow(aHead, minusB.ToUnityVector3(), Color.green, 60f);
+
+        Debug.Log("Magnitude of a = " + a.Magnitude().ToString("F2"));
+        Debug.Log("Magnitude of b = " + b.Magnitude().ToString("F2"));
+        Debug.Log("Magnitude of c = " + c.Magnitude().ToString("F2"));
+
+        
+        
     }
 
     public void Question3b()
     {
-        // Your code here
-        // ...
+        HVector2D a = new HVector2D(3, 5);
+        HVector2D b = a * 2;
+        HVector2D c = a / 2;
 
-        //DebugExtension.DebugArrow(Vector3.zero, a.ToUnityVector3(), Color.red, 60f);
+        //drawing HVector a
+        DebugExtension.DebugArrow(Vector3.zero, a.ToUnityVector3(), Color.red, 60f);
+        //after poking around Unity's Vector3 documentation, new Vector3(1,0,0) can be written as Vector3.right
+        //drawing HVector b
+        //DebugExtension.DebugArrow(Vector3.right, b.ToUnityVector3(), Color.green, 60f);
+        //drawing HVector where a/2
+        DebugExtension.DebugArrow(Vector3.right, c.ToUnityVector3(), Color.green, 60f);
+
         // Your code here
     }
 
     public void Question3c()
     {
+        HVector2D a = new HVector2D(3, 5);
+        HVector2D b = new HVector2D(3, 5);
+        //normalized vector of a
+        b.Normalize();
 
+        DebugExtension.DebugArrow(Vector3.zero, a.ToUnityVector3(), Color.red, 60f);
+        DebugExtension.DebugArrow(Vector3.right, b.ToUnityVector3(), Color.green, 60f);
+
+        Debug.Log("Magnitude of normalized a = " + b.Magnitude().ToString("F2"));
     }
 
     public void Projection()
@@ -133,13 +168,12 @@ public class VectorExercises : MonoBehaviour
         HVector2D b = new HVector2D(6, 0);
         HVector2D c = new HVector2D(2, 2);
 
-        //HVector2D v1 = b - a;
-        // Your code here
+        HVector2D v1 = b - a;
 
-        //HVector2D proj = // Your code here
+        HVector2D proj = c.Projection(v1);
 
-        //DebugExtension.DebugArrow(a.ToUnityVector3(), b.ToUnityVector3(), Color.red, 60f);
-        //DebugExtension.DebugArrow(a.ToUnityVector3(), c.ToUnityVector3(), Color.yellow, 60f);
-        //DebugExtension.DebugArrow(a.ToUnityVector3(), proj.ToUnityVector3(), Color.white, 60f);
+        DebugExtension.DebugArrow(a.ToUnityVector3(), v1.ToUnityVector3(), Color.red, 60f);
+        DebugExtension.DebugArrow(a.ToUnityVector3(), c.ToUnityVector3(), Color.yellow, 60f);
+        DebugExtension.DebugArrow(a.ToUnityVector3(), proj.ToUnityVector3(), Color.white, 60f);
     }
 }

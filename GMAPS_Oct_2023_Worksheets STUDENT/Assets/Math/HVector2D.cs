@@ -30,45 +30,57 @@ public class HVector2D
         h = 1.0f;
     }
 
-    // public static HVector2D operator +( /*???*/)
-    // {
+     public static HVector2D operator +(HVector2D a, HVector2D b)
+     {
+        return new HVector2D(a.x + b.x, a.y + b.y);
+     }
 
-    // }
+     public static HVector2D operator -(HVector2D a, HVector2D b)
+     {
+        return new HVector2D(a.x - b.x, a.y - b.y);
+     }
 
-    // public static HVector2D operator -(/*???*/)
-    // {
+     public static HVector2D operator *(HVector2D a, float scalar)
+     {
+        return new HVector2D(a.x * scalar, a.y * scalar );
+     }
 
-    // }
+     public static HVector2D operator /(HVector2D a, float scalar)
+     {
+        return new HVector2D(a.x / scalar, a.y / scalar );
+     }
 
-    // public static HVector2D operator *(/*???*/)
-    // {
+    public float Magnitude()
+     {
+         return (float)Math.Sqrt((x * x) + (y * y));
+     }
 
-    // }
+     public void Normalize()
+     {
+        float mag = Magnitude();
+        x /= mag;
+        y /= mag;
 
-    // public static HVector2D operator /(/*???*/)
-    // {
+     }
 
-    // }
+     public float DotProduct(HVector2D _vec)
+     {
+        return (x * _vec.x) + (y * _vec.y);
+     }
 
-    // public float Magnitude()
-    // {
+     public HVector2D Projection(HVector2D targetVector)
+     {
+        // Formula for projection is (a dot b) / ||b||^2 * b, where a is projected onto b
 
-    // }
+        // Calculating a dot b
+        float dotProduct = this.DotProduct(targetVector);
 
-    // public void Normalize()
-    // {
-
-    // }
-
-    // public float DotProduct(/*???*/)
-    // {
-
-    // }
-
-    // public HVector2D Projection(/*???*/)
-    // {
-
-    // }
+        // Calculating (a dot b) / ||b||^2 and assigning it to scalar var x
+        float x = dotProduct / (targetVector.Magnitude() * targetVector.Magnitude());
+        
+        // Multiplying x to targetVector to calculate projection
+        return targetVector * x;
+     }
 
     // public float FindAngle(/*???*/)
     // {
@@ -82,7 +94,7 @@ public class HVector2D
 
     public Vector3 ToUnityVector3()
     {
-        return Vector2.zero; // change this
+        return new Vector3(x, y, 0);
     }
 
     // public void Print()
