@@ -89,7 +89,7 @@ public class HVector2D
 
     public Vector2 ToUnityVector2()
     {
-        return Vector2.zero; // change this
+        return new Vector2(x, y); 
     }
 
     public Vector3 ToUnityVector3()
