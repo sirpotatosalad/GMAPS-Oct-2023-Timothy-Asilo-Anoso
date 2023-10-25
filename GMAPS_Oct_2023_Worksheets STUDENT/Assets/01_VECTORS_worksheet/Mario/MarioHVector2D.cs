@@ -27,6 +27,7 @@ public class MarioHVector2D : MonoBehaviour
 
         gravityDir.Normalize();
 
+        rb.AddForce((gravityDir.ToUnityVector2()) * gravityStrength);
 
 
         // Your code here
