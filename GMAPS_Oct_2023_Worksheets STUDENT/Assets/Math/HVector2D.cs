@@ -82,10 +82,18 @@ public class HVector2D
         return targetVector * x;
      }
 
-    // public float FindAngle(/*???*/)
-    // {
+     public float FindAngle(HVector2D _vec)
+     {
+        
+         float angle = Mathf.Acos(DotProduct(_vec) / (Magnitude() * _vec.Magnitude()));
 
-    // }
+        if (y < 0)
+        {
+            angle = -angle;
+        }
+
+        return angle;
+     }
 
     public Vector2 ToUnityVector2()
     {
