@@ -39,119 +39,119 @@ public class HMatrix2D
         Entries[8, 0] = m22;
     }
 
-    public static HMatrix2D operator +(HMatrix2D left, HMatrix2D right)
-    {
-        return // your code here
-    }
+ //   public static HMatrix2D operator +(HMatrix2D left, HMatrix2D right)
+ //   {
+ //       return // your code here
+ //   }
 
-    public static HMatrix2D operator -(HMatrix2D left, HMatrix2D right)
-    {
-        return // your code here
-    }
+ //   public static HMatrix2D operator -(HMatrix2D left, HMatrix2D right)
+ //   {
+ //       return // your code here
+ //   }
 
-    public static HMatrix2D operator *(HMatrix2D left, float scalar)
-    {
-        return // your code here
-    }
+ //   public static HMatrix2D operator *(HMatrix2D left, float scalar)
+ //   {
+ //       return // your code here
+ //   }
 
-    // Note that the second argument is a HVector2D object
-    //
-    public static HVector2D operator *(HMatrix2D left, HVector2D right)
-    {
-        return // your code here
-    }
+ //   // Note that the second argument is a HVector2D object
+ //   //
+ //   public static HVector2D operator *(HMatrix2D left, HVector2D right)
+ //   {
+ //       return // your code here
+ //   }
 
-    // Note that the second argument is a HMatrix2D object
-    //
-    public static HMatrix2D operator *(HMatrix2D left, HMatrix2D right)
-    {
-        return new HMatrix2D
-        (
-	    /* 
-            00 01 02    00 xx xx
-            xx xx xx    10 xx xx
-            xx xx xx    20 xx xx
-            */
-            left.Entries[0, 0] * right.Entries[0, 0] + left.Entries[0, 1] * right.Entries[1, 0] + left.Entries[0, 2] * right.Entries[2, 0],
+ //   // Note that the second argument is a HMatrix2D object
+ //   //
+ //   public static HMatrix2D operator *(HMatrix2D left, HMatrix2D right)
+ //   {
+ //       return new HMatrix2D
+ //       (
+	//    /* 
+ //           00 01 02    00 xx xx
+ //           xx xx xx    10 xx xx
+ //           xx xx xx    20 xx xx
+ //           */
+ //           left.Entries[0, 0] * right.Entries[0, 0] + left.Entries[0, 1] * right.Entries[1, 0] + left.Entries[0, 2] * right.Entries[2, 0],
 
-	    /* 
-            00 01 02    xx 01 xx
-            xx xx xx    xx 11 xx
-            xx xx xx    xx 21 xx
-            */
-            left.Entries[0, 0] * right.Entries[0, 1] + left.Entries[0, 1] * right.Entries[1, 1] + left.Entries[0, 2] * right.Entries[2, 1],
+	//    /* 
+ //           00 01 02    xx 01 xx
+ //           xx xx xx    xx 11 xx
+ //           xx xx xx    xx 21 xx
+ //           */
+ //           left.Entries[0, 0] * right.Entries[0, 1] + left.Entries[0, 1] * right.Entries[1, 1] + left.Entries[0, 2] * right.Entries[2, 1],
 
-	    // and so on for another 7 entries
-	);
-    }
+	//    // and so on for another 7 entries
+	//);
+ //   }
 
-    public static bool operator ==(HMatrix2D left, HMatrix2D right)
-    {
-        // your code here
-    }
+ //   public static bool operator ==(HMatrix2D left, HMatrix2D right)
+ //   {
+ //       // your code here
+ //   }
 
-    public static bool operator !=(HMatrix2D left, HMatrix2D right)
-    {
-        // your code here
-    }
+ //   public static bool operator !=(HMatrix2D left, HMatrix2D right)
+ //   {
+ //       // your code here
+ //   }
 
-    public override bool Equals(object obj)
-    {
-        // your code here
-    }
+ //   public override bool Equals(object obj)
+ //   {
+ //       // your code here
+ //   }
 
-    public override int GetHashCode()
-    {
-        // your code here
-    }
+ //   public override int GetHashCode()
+ //   {
+ //       // your code here
+ //   }
 
-    public HMatrix2D transpose()
-    {
-        return // your code here
-    }
+ //   public HMatrix2D transpose()
+ //   {
+ //       return // your code here
+ //   }
 
-    public float getDeterminant()
-    {
-        return // your code here
-    }
+ //   public float getDeterminant()
+ //   {
+ //       return // your code here
+ //   }
 
-    public void SetIdentity()
-    {
-        //for (int y = 0; y < 4;  y++)
-        //{
-        //    for (int x = 0; x < 4; x++)
-        //    {
-        //        if (x == 0)
-        //        {
-        //            Entries[y, x] = 1;
-        //        }
-        //        else
-        //        {
-        //            Entries[y,x] = 0;
-        //        }
-        //    }
-        //}
+ //   public void SetIdentity()
+ //   {
+ //       //for (int y = 0; y < 4;  y++)
+ //       //{
+ //       //    for (int x = 0; x < 4; x++)
+ //       //    {
+ //       //        if (x == 0)
+ //       //        {
+ //       //            Entries[y, x] = 1;
+ //       //        }
+ //       //        else
+ //       //        {
+ //       //            Entries[y,x] = 0;
+ //       //        }
+ //       //    }
+ //       //}
 
-        for (int y = 0; y < 4; y++)
-            for (int x = 0;x < 4; x++)
-                Entries[y,x] = (x == 0) ? 1 : 0;
+ //       for (int y = 0; y < 4; y++)
+ //           for (int x = 0;x < 4; x++)
+ //               Entries[y,x] = (x == 0) ? 1 : 0;
 
-    }
+ //   }
 
-    public void setTranslationMat(float transX, float transY)
-    {
-        // your code here
-    }
+ //   public void setTranslationMat(float transX, float transY)
+ //   {
+ //       // your code here
+ //   }
 
-    public void setRotationMat(float rotDeg)
-    {
-        // your code here
-    }
+ //   public void setRotationMat(float rotDeg)
+ //   {
+ //       // your code here
+ //   }
 
-    public void setScalingMat(float scaleX, float scaleY)
-    {
-        // your code here
-    }
+ //   public void setScalingMat(float scaleX, float scaleY)
+ //   {
+ //       // your code here
+ //   }
 
     public void Print()
     {
