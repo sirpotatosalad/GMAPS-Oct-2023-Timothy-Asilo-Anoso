@@ -11,28 +11,28 @@ public class Ball2D : MonoBehaviour
     [HideInInspector]
     public float Radius;
 
-    //private void Start()
-    //{
-    //    Position.x = transform.position.x;
-    //    Position.y = transform.position.y;
+    private void Start()
+    {
+        Position.x = transform.position.x;
+        Position.y = transform.position.y;
 
-    //    Sprite sprite = GetComponent<SpriteRenderer>().sprite;
-    //    Vector2 sprite_size = sprite.rect.size;
-    //    Vector2 local_sprite_size = sprite_size / sprite.pixelsPerUnit;
-    //    Radius = local_sprite_size.x / 2f;
-    //}
+        Sprite sprite = GetComponent<SpriteRenderer>().sprite;
+        Vector2 sprite_size = sprite.rect.size;
+        Vector2 local_sprite_size = sprite_size / sprite.pixelsPerUnit;
+        Radius = local_sprite_size.x / 2f;
+    }
 
-    //public bool IsCollidingWith(float x, float y)
-    //{
-    //    float distance = /*your code here*/;
-    //    return distance <= Radius;
-    //}
+    public bool IsCollidingWith(float x, float y)
+    {
+        float distance = Mathf.Sqrt((x - transform.position.x) * (x - transform.position.x) + (y - transform.position.y) * (y - transform.position.y));
+        return distance <= Radius;
+    }
 
-    //public bool IsCollidingWith(Ball2D other)
-    //{
-    //    float distance = Util.FindDistance(Position, other.Position);
-    //    return distance <= Radius + other.Radius;
-    //}
+    public bool IsCollidingWith(Ball2D other)
+    {
+        float distance = Util.FindDistance(Position, other.Position);
+        return distance <= Radius + other.Radius;
+    }
 
     //public void FixedUpdate()
     //{
