@@ -38,6 +38,9 @@ public class TransformMesh : MonoBehaviour
 
     void Rotate(float angle)
     {
+        HMatrix2D toOriginMatrix = new HMatrix2D();
+        HMatrix2D fromOriginMatrix = new HMatrix2D();
+        HMatrix2D rotateMatrix = new HMatrix2D();
 
         toOriginMatrix.setTranslationMat(-pos.x, -pos.y);
         fromOriginMatrix.setTranslationMat(pos.x, pos.y);
