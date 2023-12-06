@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.2/staging' branch; Version is '2022.2.15f1 (30d813e1a2a9) revision 3201043'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16226 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 14188 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.2.15f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/thema/Unity Projects/School/GMAPS-Oct-2023-Timothy-Asilo-Anoso/GMAPS_Oct_2023_Worksheets STUDENT
+C:/Users/thema/Unity Project Files/GMAPS/GMAPS-Oct-2023-Timothy-Asilo-Anoso/GMAPS_Oct_2023_Worksheets STUDENT
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51065
-Successfully changed project path to: C:/Users/thema/Unity Projects/School/GMAPS-Oct-2023-Timothy-Asilo-Anoso/GMAPS_Oct_2023_Worksheets STUDENT
-C:/Users/thema/Unity Projects/School/GMAPS-Oct-2023-Timothy-Asilo-Anoso/GMAPS_Oct_2023_Worksheets STUDENT
+51020
+Successfully changed project path to: C:/Users/thema/Unity Project Files/GMAPS/GMAPS-Oct-2023-Timothy-Asilo-Anoso/GMAPS_Oct_2023_Worksheets STUDENT
+C:/Users/thema/Unity Project Files/GMAPS/GMAPS-Oct-2023-Timothy-Asilo-Anoso/GMAPS_Oct_2023_Worksheets STUDENT
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,61 +47,61 @@ C:/Users/thema/Unity Projects/School/GMAPS-Oct-2023-Timothy-Asilo-Anoso/GMAPS_Oc
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24396] Host "[IP] 192.168.1.19 [Port] 0 [Flags] 2 [Guid] 3637016575 [EditorId] 3637016575 [Version] 1048832 [Id] WindowsEditor(7,Tim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8060] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1180564769 [EditorId] 1180564769 [Version] 1048832 [Id] WindowsEditor(7,Tim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24396] Host "[IP] 192.168.1.19 [Port] 0 [Flags] 2 [Guid] 3637016575 [EditorId] 3637016575 [Version] 1048832 [Id] WindowsEditor(7,Tim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8060] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1180564769 [EditorId] 1180564769 [Version] 1048832 [Id] WindowsEditor(7,Tim) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 9.55 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 34.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/thema/Unity Projects/School/GMAPS-Oct-2023-Timothy-Asilo-Anoso/GMAPS_Oct_2023_Worksheets STUDENT/Assets
+[Subsystems] Discovering subsystems at path C:/Users/thema/Unity Project Files/GMAPS/GMAPS-Oct-2023-Timothy-Asilo-Anoso/GMAPS_Oct_2023_Worksheets STUDENT/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
     Vendor:   NVIDIA
-    VRAM:     10067 MB
-    Driver:   31.0.15.4617
+    VRAM:     3952 MB
+    Driver:   31.0.15.3197
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006647 seconds.
-- Loaded All Assemblies, in  0.223 seconds
+Registered in 0.008636 seconds.
+- Loaded All Assemblies, in  0.499 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.209 seconds
+- Finished resetting the current domain, in  0.348 seconds
 Domain Reload Profiling:
-	ReloadAssembly (136ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (314ms)
+		BeginReloadAssembly (189ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (59ms)
+			LoadAssemblies (186ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (81ms)
-				TypeCache.Initialize (81ms)
-					TypeCache.ScanAssembly (80ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (176ms)
+				TypeCache.Initialize (175ms)
+					TypeCache.ScanAssembly (172ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (162ms)
+			SetupLoadedEditorAssemblies (277ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (7ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (11ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,53 +109,54 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\thema\Unity Projects\School\GMAPS-Oct-2023-Timothy-Asilo-Anoso\GMAPS_Oct_2023_Worksheets STUDENT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\thema\Unity Projects\School\GMAPS-Oct-2023-Timothy-Asilo-Anoso\GMAPS_Oct_2023_Worksheets STUDENT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.579 seconds
-Refreshing native plugins compatible for Editor in 4.05 ms, found 4 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\thema\Unity Project Files\GMAPS\GMAPS-Oct-2023-Timothy-Asilo-Anoso\GMAPS_Oct_2023_Worksheets STUDENT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\thema\Unity Project Files\GMAPS\GMAPS-Oct-2023-Timothy-Asilo-Anoso\GMAPS_Oct_2023_Worksheets STUDENT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.189 seconds
+Refreshing native plugins compatible for Editor in 3.82 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.485 seconds
+- Finished resetting the current domain, in  0.719 seconds
 Domain Reload Profiling:
-	ReloadAssembly (163ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (290ms)
+		BeginReloadAssembly (209ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		LoadAllAssembliesAndSetupDomain (413ms)
-			LoadAssemblies (232ms)
+			CreateAndSetChildDomain (36ms)
+		LoadAllAssembliesAndSetupDomain (896ms)
+			LoadAssemblies (654ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (225ms)
-				TypeCache.Initialize (201ms)
-					TypeCache.ScanAssembly (198ms)
+			SetupTypeCache (360ms)
+				TypeCache.Initialize (331ms)
+					TypeCache.ScanAssembly (321ms)
 				ResolveRequiredComponents (4ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (348ms)
+			SetupLoadedEditorAssemblies (522ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (3ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.08 ms, found 4 plugins.
+			AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 5.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4015 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (70.4 KB). Loaded Objects now: 4480.
-Memory consumption went from 130.1 MB to 130.0 MB.
-Total: 2.310100 ms (FindLiveObjects: 0.184200 ms CreateObjectMapping: 0.115700 ms MarkObjects: 1.916600 ms  DeleteObjects: 0.092600 ms)
+Unloading 63 unused Assets / (70.4 KB). Loaded Objects now: 4482.
+Memory consumption went from 130.5 MB to 130.4 MB.
+Total: 7.031600 ms (FindLiveObjects: 0.874400 ms CreateObjectMapping: 0.479200 ms MarkObjects: 5.387600 ms  DeleteObjects: 0.287800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -167,70 +168,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 28347.632529 seconds.
-  path: Assets/03_KINEMATICS_Worksheet/Part 1/JumpToHeight
-  artifactKey: Guid(ea6cc214f9dc13247adf1110d929d978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03_KINEMATICS_Worksheet/Part 1/JumpToHeight using Guid(ea6cc214f9dc13247adf1110d929d978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b39377897f21cb5b63b7992f64e243') in 0.001352 seconds
+  Time since last request: 1596487.398957 seconds.
+  path: Assets/02_MATRICES_worksheet/Sonic/Matrix.unity
+  artifactKey: Guid(11f3f63cba64deb408459548ff236438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_MATRICES_worksheet/Sonic/Matrix.unity using Guid(11f3f63cba64deb408459548ff236438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72983c3ac4d6eb0aab767a26b3abeee1') in 0.004593 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.687044 seconds.
-  path: Assets/03_KINEMATICS_Worksheet/Part 1/JumpToHeight/JumpToHeight.unity
-  artifactKey: Guid(fa8c9ac39d415e14696df0faa7585026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03_KINEMATICS_Worksheet/Part 1/JumpToHeight/JumpToHeight.unity using Guid(fa8c9ac39d415e14696df0faa7585026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fad0a44c3086b0c5734782fa1ba6ec1') in 0.000519 seconds
+  Time since last request: 0.000046 seconds.
+  path: Assets/02_MATRICES_worksheet/Sonic
+  artifactKey: Guid(d302fc68c3f2b314a99d6a4837b1c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_MATRICES_worksheet/Sonic using Guid(d302fc68c3f2b314a99d6a4837b1c3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3b5d5ac8e0bf16b5c8531728448713') in 0.000755 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/02_MATRICES_worksheet/Sonic/Sonic.png
+  artifactKey: Guid(2f7921371e5959f4396e36d62a6818ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_MATRICES_worksheet/Sonic/Sonic.png using Guid(2f7921371e5959f4396e36d62a6818ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a115b22b031fc9467379698b141d79cb') in 0.095058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\thema\Unity Projects\School\GMAPS-Oct-2023-Timothy-Asilo-Anoso\GMAPS_Oct_2023_Worksheets STUDENT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\thema\Unity Projects\School\GMAPS-Oct-2023-Timothy-Asilo-Anoso\GMAPS_Oct_2023_Worksheets STUDENT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.537 seconds
-Refreshing native plugins compatible for Editor in 4.15 ms, found 4 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\thema\Unity Project Files\GMAPS\GMAPS-Oct-2023-Timothy-Asilo-Anoso\GMAPS_Oct_2023_Worksheets STUDENT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\thema\Unity Project Files\GMAPS\GMAPS-Oct-2023-Timothy-Asilo-Anoso\GMAPS_Oct_2023_Worksheets STUDENT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.902 seconds
+Refreshing native plugins compatible for Editor in 5.94 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.764 seconds
+- Finished resetting the current domain, in  1.663 seconds
 Domain Reload Profiling:
-	ReloadAssembly (186ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (277ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		LoadAllAssembliesAndSetupDomain (349ms)
-			LoadAssemblies (199ms)
+			CreateAndSetChildDomain (49ms)
+		LoadAllAssembliesAndSetupDomain (622ms)
+			LoadAssemblies (383ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
-				TypeCache.Initialize (188ms)
-					TypeCache.ScanAssembly (184ms)
-				ResolveRequiredComponents (3ms)
+			SetupTypeCache (309ms)
+				TypeCache.Initialize (302ms)
+					TypeCache.ScanAssembly (294ms)
+				ResolveRequiredComponents (6ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (323ms)
+			SetupLoadedEditorAssemblies (520ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (9ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 5.09 ms, found 4 plugins.
+			AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 5.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (34.7 KB). Loaded Objects now: 4485.
-Memory consumption went from 127.1 MB to 127.1 MB.
-Total: 2.354400 ms (FindLiveObjects: 0.224100 ms CreateObjectMapping: 0.106500 ms MarkObjects: 1.979000 ms  DeleteObjects: 0.044000 ms)
+Unloading 35 unused Assets / (34.7 KB). Loaded Objects now: 4490.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 5.548100 ms (FindLiveObjects: 0.474700 ms CreateObjectMapping: 0.516600 ms MarkObjects: 4.412800 ms  DeleteObjects: 0.142400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -240,134 +250,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 10.295773 seconds.
-  path: Assets/03_KINEMATICS_Worksheet/Part 1/Force
-  artifactKey: Guid(6793ee671aba52148bc41b51d8bb2cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03_KINEMATICS_Worksheet/Part 1/Force using Guid(6793ee671aba52148bc41b51d8bb2cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411ee0896a8df21b55f4fc2d77a47099') in 0.001282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.083018 seconds.
-  path: Assets/03_KINEMATICS_Worksheet/Part 1/Force/Motion.cs
-  artifactKey: Guid(d110783f9df238a4db32c9ffd7ff852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03_KINEMATICS_Worksheet/Part 1/Force/Motion.cs using Guid(d110783f9df238a4db32c9ffd7ff852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7b4f364abc292ac0e0a42586290c9a') in 0.001125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.738430 seconds.
-  path: Assets/03_KINEMATICS_Worksheet/Part 1/Force/FirstLaw.cs
-  artifactKey: Guid(dc88028541713ec4e916daf3b6eaeb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03_KINEMATICS_Worksheet/Part 1/Force/FirstLaw.cs using Guid(dc88028541713ec4e916daf3b6eaeb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9769e5a2f0cc3d1597a9cc101dad6417') in 0.000376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.174834 seconds.
-  path: Assets/03_KINEMATICS_Worksheet/Part 1/Force/Newton.unity
-  artifactKey: Guid(7b9ae0a11c83b034fa86be945d3d36a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03_KINEMATICS_Worksheet/Part 1/Force/Newton.unity using Guid(7b9ae0a11c83b034fa86be945d3d36a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc530bc0ba1dffc493e105043de231a') in 0.000483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\thema\Unity Projects\School\GMAPS-Oct-2023-Timothy-Asilo-Anoso\GMAPS_Oct_2023_Worksheets STUDENT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\thema\Unity Projects\School\GMAPS-Oct-2023-Timothy-Asilo-Anoso\GMAPS_Oct_2023_Worksheets STUDENT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.558 seconds
-Refreshing native plugins compatible for Editor in 5.83 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.748 seconds
-Domain Reload Profiling:
-	ReloadAssembly (187ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		LoadAllAssembliesAndSetupDomain (368ms)
-			LoadAssemblies (227ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
-				TypeCache.Initialize (186ms)
-					TypeCache.ScanAssembly (181ms)
-				ResolveRequiredComponents (5ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (314ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 4.54 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (34.7 KB). Loaded Objects now: 4489.
-Memory consumption went from 127.2 MB to 127.1 MB.
-Total: 2.598500 ms (FindLiveObjects: 0.221900 ms CreateObjectMapping: 0.215200 ms MarkObjects: 2.081700 ms  DeleteObjects: 0.078900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 16.418777 seconds.
-  path: Assets/03_KINEMATICS_Worksheet/Part 2 POOL/Materials
-  artifactKey: Guid(27847480bfc96ce43bb60657024fbfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03_KINEMATICS_Worksheet/Part 2 POOL/Materials using Guid(27847480bfc96ce43bb60657024fbfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29f523458cd315ef94a5a9f6c3ad4fd') in 0.001845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.437860 seconds.
-  path: Assets/03_KINEMATICS_Worksheet/Part 2 POOL/Scripts
-  artifactKey: Guid(37de66ee4c3cd0a479ba16362c26fd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03_KINEMATICS_Worksheet/Part 2 POOL/Scripts using Guid(37de66ee4c3cd0a479ba16362c26fd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077016eb2859b71286fa7bff531968cb') in 0.000430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.446918 seconds.
-  path: Assets/03_KINEMATICS_Worksheet/Part 2 POOL/Scenes
-  artifactKey: Guid(d6babefbe772d1544a6a88764d3335c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03_KINEMATICS_Worksheet/Part 2 POOL/Scenes using Guid(d6babefbe772d1544a6a88764d3335c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10977fe54ffcd776a162e939698db1e3') in 0.000358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.880961 seconds.
-  path: Assets/03_KINEMATICS_Worksheet/Part 2 POOL/Scenes/Pool.unity
-  artifactKey: Guid(3438737e18afb984fa48f90b21f96a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03_KINEMATICS_Worksheet/Part 2 POOL/Scenes/Pool.unity using Guid(3438737e18afb984fa48f90b21f96a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b04fa9ef6a785970379480287978523') in 0.000349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.255437 seconds.
-  path: Assets/03_KINEMATICS_Worksheet/Part 2 POOL/Scripts/PoolCue.cs
-  artifactKey: Guid(8c8cff97446943f47b1a6470c20e1df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03_KINEMATICS_Worksheet/Part 2 POOL/Scripts/PoolCue.cs using Guid(8c8cff97446943f47b1a6470c20e1df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d588454cd164ed2a9e8d52994fffd65') in 0.000422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
