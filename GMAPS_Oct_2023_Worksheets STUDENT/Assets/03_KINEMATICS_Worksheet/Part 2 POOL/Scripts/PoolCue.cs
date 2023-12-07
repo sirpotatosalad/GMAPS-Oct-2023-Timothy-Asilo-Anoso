@@ -49,9 +49,6 @@ public class PoolCue : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Get a list of active lines and deactivates them.
-    /// </summary>
     public void Clear()
     {
         var activeLines = lineFactory.GetActive();
