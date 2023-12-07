@@ -27,18 +27,16 @@ public class MarioHVector2D : MonoBehaviour
         rb.AddForce(moveDir.ToUnityVector2() * force);
 
         gravityDir.Normalize();
-
-        rb.AddForce((gravityDir.ToUnityVector2()) * gravityStrength);   
-
+        // apply gravitational force towards the planet using HVector2D
+        rb.AddForce((gravityDir.ToUnityVector2()) * gravityStrength);
+        // calculate the angle between the right direction and the movement direction
         float angle = moveDir.FindAngle(new HVector2D(1,0));
         angle *= Mathf.Rad2Deg;
-
+        
+        // rotate mario based on the angle
         rb.MoveRotation(Quaternion.Euler(0,0,angle));
         DebugExtension.DebugArrow(transform.position, gravityDir.ToUnityVector2(), Color.red);
         DebugExtension.DebugArrow(transform.position, moveDir.ToUnityVector2(), Color.blue);
 
-
-        // Your code here
-        // ...
     }
 }
